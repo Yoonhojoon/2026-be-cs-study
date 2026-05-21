@@ -104,7 +104,7 @@
 - 정규화
 - 인덱스(INDEX)
 - 트랜잭션(Transaction)
-- 트랜잭션 격리 수준(Transaction Isolation Level)
+- [트랜잭션 격리 수준(Transaction Isolation Level)](database/트랜잭션_격리_수준.md)
 - 레디스(Redis)
 
 ## 📌 언어
