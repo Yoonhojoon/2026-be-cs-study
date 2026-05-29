@@ -99,7 +99,7 @@
 - 키(Key) 정리
 - SQL - JOIN
 - SQL Injection
-- SQL vs NoSQL
+- [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
 - 이상(Anomaly)
 - 정규화
 - 인덱스(INDEX)
