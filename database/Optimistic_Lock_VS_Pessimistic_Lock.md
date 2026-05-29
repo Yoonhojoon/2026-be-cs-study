@@ -1,4 +1,4 @@
-# Lock
+# 낙관적 락 (Optimistic Lock) VS 비관적 락 (Pessimistic Lock)
 
 ## 학습 목표
 
