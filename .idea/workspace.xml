@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02b839d0-522c-40fc-97ce-84925e3768df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/Optimistic_Lock_VS_Pessimistic_Lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/Optimistic_Lock_VS_Pessimistic_Lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1779426062619" duration="1663000" />
       <workItem from="1779429543647" duration="1000" />
       <workItem from="1779431729111" duration="3167000" />
-      <workItem from="1780019602870" duration="4498000" />
+      <workItem from="1780019602870" duration="8940000" />
     </task>
     <servers />
   </component>
