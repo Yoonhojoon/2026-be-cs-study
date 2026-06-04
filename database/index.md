@@ -97,7 +97,7 @@ B+Tree는 정렬된 구조와 리프 노드의 LinkedList 덕분에 이런 연�
 - 데이터의 물리적 순서는 하나뿐이므로, 테이블당 하나만 존재할 수 있다.
 - 인덱스 컬럼의 값이 바뀌면 레코드의 물리적 위치도 함께 바뀐다. 따라서 자주 변경되는 컬럼에는 적용하지 않는 것이 좋다.
 
-![Index_1.png](Index_1.png)
+![Index_2.png](Index_2.png)
 
 > 리프 노드에 실제 데이터가 있음 => 인덱스 탐색 끝 = 데이터 획득 끝
 
@@ -110,7 +110,7 @@ B+Tree는 정렬된 구조와 리프 노드의 LinkedList 덕분에 이런 연�
 - UNIQUE 제약 조건이 있는 컬럼에는 자동으로 생성된다.
 - 인덱스 탐색 후 PK를 통해 Clustered Index를 한 번 더 조회해야 실제 데이터에 도달한다. Clustered Index보다 한 단계가 더 필요하다.
 
-![index_2.png](index_2.png)
+![index_3.png](index_3.png)
 
 > 리프 노드에 MobileNo + RollNo(PK) 만 있음 => MobileNo로 탐색해서 RollNo를 얻고, 그 RollNo로 Clustered Index를 한 번 더 탐색해야 실제 데이터에 도달
 
