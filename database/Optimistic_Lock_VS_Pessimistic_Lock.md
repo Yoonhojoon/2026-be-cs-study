@@ -79,7 +79,7 @@
 #### 동작 방식
 
 1. 데이터를 읽을 때 즉시 락 획득 (`SELECT FOR UPDATE`)
-2. 다른 세션은 해당 데이터에 접근하려 하면 **대기 상태**로 전환
+2. 다른 세션이 해당 데이터를 수정하거나 FOR UPDATE로 읽으려 하면 대기 상태로 전환 (일반 SELECT는 가능)
 3. 락을 보유한 세션이 커밋 또는 롤백하면 락 해제
 4. 대기 중이던 세션이 락을 획득하고 작업 진행
 
@@ -87,7 +87,7 @@
 -- 비관적 락 예시 (PostgreSQL / MySQL 공통)
 BEGIN;
 SELECT balance FROM accounts WHERE id = 1 FOR UPDATE;
--- 이 시점부터 다른 세션은 id = 1 행에 접근 불가
+-- 이 시점부터 다른 세션은 id = 1 행을 수정하거나 FOR UPDATE로 읽을 수 없음
 UPDATE accounts SET balance = balance - 50000 WHERE id = 1;
 COMMIT;
 ```
