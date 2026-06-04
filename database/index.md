@@ -2,6 +2,10 @@
 
 ## 학습 목표
 
+- 인덱스가 왜 필요한지, 어떤 문제를 해결하는지 설명할 수 있다.
+- Clustered Index와 Non-clustered Index의 차이를 설명할 수 있다.
+- 인덱스를 어떤 상황에 사용해야 하는지 판단할 수 있다.
+
 ---
 
 ## index가 왜 필요할까?
@@ -148,3 +152,11 @@ B+Tree는 정렬된 구조와 리프 노드의 LinkedList 덕분에 이런 연�
 - WHERE, JOIN, ORDER BY에 자주 등장하는 컬럼
 - INSERT, UPDATE, DELETE가 자주 발생하지 않는 컬럼
 - 중복도가 낮은 컬럼 (예: 성별처럼 값의 종류가 적은 컬럼은 인덱스 효과가 거의 없다)
+
+---
+
+### 참고 자료
+
+https://dev-baik.tistory.com/174
+
+https://velog.io/@gillog/SQL-Clustered-Index-Non-Clustered-Index
