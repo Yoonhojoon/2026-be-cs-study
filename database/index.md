@@ -193,6 +193,22 @@ ORDER BY name ASC
 | 조회 속도 | 빠름 | 상대적으로 느림 |
 | 기본 생성 조건 | Primary Key | UNIQUE 제약 조건 |
 
+
+> 대부분의 DB에서 PK에는 `Clustered Index`가, 나머지 컬럼에 거는 인덱스는 `Non-clustered Index`가 자동 생성된다.
+
+
+### 각각 언제 쓸까?
+
+#### Clustered Index
+
+- PK 기반 단건 조회가 잦을 때 (`WHERE id = 1`)
+- 범위 조회가 잦을 때 (`WHERE id BETWEEN 1 AND 100`)
+
+#### Non-clustered Index
+
+- PK가 아닌 컬럼으로 조회가 잦을 때 (`WHERE email = '...'`)
+- 여러 컬럼에 인덱스가 필요할 때
+
 ---
 
 ## index 장단점
