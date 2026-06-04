@@ -103,7 +103,7 @@
 - SQL vs NoSQL
 - 이상(Anomaly)
 - 정규화
-- 인덱스(INDEX)
+- [인덱스(INDEX)](database/Index.md)
 - [트랜잭션(Transaction)](database/Transaction.md)
 - 트랜잭션 격리 수준(Transaction Isolation Level)
 - [낙관적 락 (Optimistic Lock) VS 비관적 락 (Pessimistic Lock)](database/Optimistic_Lock_VS_Pessimistic_Lock.md)
