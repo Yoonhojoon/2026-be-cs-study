@@ -101,7 +101,7 @@
 - SQL - JOIN
 - [SQL_Injection](database/SQL_Injection.md)
 - SQL vs NoSQL
-- 이상(Anomaly)
+- [이상(Anomaly)](database/이상(Anomaly).md)
 - 정규화
 - [인덱스(INDEX)](database/Index.md)
 - [트랜잭션(Transaction)](database/Transaction.md)
