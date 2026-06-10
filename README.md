@@ -107,7 +107,7 @@
 - [트랜잭션(Transaction)](database/Transaction.md)
 - [트랜잭션 격리 수준(Transaction Isolation Level)](database/트랜잭션_격리_수준.md)
 - [낙관적 락 (Optimistic Lock) VS 비관적 락 (Pessimistic Lock)](database/Optimistic_Lock_VS_Pessimistic_Lock.md)
-- 레디스(Redis)
+- [레디스(Redis)](database/Redis.md)
 
 ## 📌 언어
 
