@@ -1,32 +1,52 @@
 # 8기 BE CS 스터디 '지능향상스터디'
 
-# 🌳 Rule
+# 🌳 운영 방침
 
-### 학습 방식
+## 주제 선정
 
-- 매주 공통 대주제를 선정한다.
-- 각자 대주제 내에서 소주제를 선택하여 학습한다.
-- 학습 내용은 Markdown 파일로 정리한다.
+- 매주 스터디 후 다음 주 주제를 정하고 이슈를 생성한다.
+- 공통 대주제를 선정하고, 대주제 안에서 소주제를 선택한다.
+- 페어 주간에는 요일 및 시간 유동적으로 조정한다.
+
+## 학습 방식
+
+- 그 주에 선택한 주제만 학습한다.
+- 더 깊게 탐구하고 싶은 경우, 소주제로 나누고 README.md에 주제를 추가하여 다음 주에 학습한다.
+
+## 산출물
+
+- 학습 내용은 Markdown 형식으로 정리하여 커밋한다.
+    - 파일 명명 규칙 : {소주제}.md (단, 공백은 언더바(_)로 대체한다.)
+    - 추가 파일 명명 규칙 : {소주제}_{번호}.{확장자}
 - 발표 2시간 전까지 PR을 생성한다.
 
-### 발표 및 토론
+## 발표 전
+
+- 다른 스터디원들의 PR을 읽고 공부한다. 질문이 있다면 코멘트를 남긴다.
+
+## 발표 및 토론
 
 - 발표는 매주 목요일 16시 ~ 18시에 진행한다.
-- 각자 질문을 준비한다.
-- 스터디 시간에는 발표 또는 토론 방식으로 진행한다. (추후 확정)
-- 학습한 내용은 다른 사람에게 가르치듯 설명하며 공유한다.
-- 당일 주제뿐만 아니라 이전 주차의 질문도 포함하여 복습 효과를 높인다.
+- 10 ~ 20분 정도 발표한다. 30분은 넘기지 않는다.
+- 발표 중간에 자유롭게 질문한다.
+    - 질문한 내용은 PR에 코멘트로 남긴다.
+    - 한번 들어온 질문은 [질문 기록 페이지](history/question_history.md)에 기록하고 복습 용도로 활용한다.
 
-### 참고 자료
+## 참고 자료
 
 - [JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
 - [gyoogle/tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
 - [WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)
 - [jobhope/TechnicalNote](https://github.com/jobhope/TechnicalNote)
 
-### 참여 규칙
+## 벌칙
 
-- 불참 2회 시 두바이 아이스박스 사기
+| 분류 | 설명 | 벌점 |
+| --- | --- | --- |
+| 지각 | 발표 2시간 이내 제출 | 1점 |
+| 결석 | 미제출 | 2점 |
+
+- 벌점 4점이 되면 두바이 아이스박스 사기
 
 # 👨‍💻 스터디원
 
@@ -43,20 +63,21 @@
 
 ## 📌 네트워크
 
-- OSI 7 계층
-- TCP 3 way handshake & 4 way handshake
+- [OSI 7 계층](network/OSI_7_계층.md)
+- [TCP 3 way handshake & 4 way handshake](network/TCP_3_way_handshake_%26_4_way_handshake.md)
 - TCP/IP 흐름제어 & 혼잡제어
     - [TCP/IP 흐름 제어](network/TCP_흐름_제어.md)
-    - TCP/IP 혼잡 제어
-- TCPvsUDP
+    - [TCP/IP 혼잡 제어](network/TCP_혼잡_제어.md)
+- [TCP vs UDP](network/TCPvsUDP.md)
+  - [TCP Header & UDP Header](network/TCP_Header_%26_UDP_Header.md)
 - 대칭키 & 공개키
-- HTTP & HTTPS
+- [HTTP_&_HTTPS](network/HTTP_%26_HTTPS.md)
 - [로드 밸런싱(Load Balancing)](network/로드_밸런싱(Load_Balancing).md)
     - [로드 밸런싱의 이점](network/로드_밸런싱의_이점.md)
     - [로드 밸런싱의 유형](network/로드_밸런싱의_유형.md)
     - [L4 로드 밸런싱](network/L4_로드_밸런싱.md)
     - [L7 로드 밸런싱](network/L7_로드_밸런싱.md)
-- Blocking & Non-Blocking I/O
+- [Blocking & Non-Blocking I/O](network/Blocking_&_Non-Blocking_IO.md)
 
 ## 📌 운영체제
 
@@ -80,14 +101,15 @@
 
 - 키(Key) 정리
 - SQL - JOIN
-- SQL Injection
-- SQL vs NoSQL
+- [SQL_Injection](database/SQL_Injection.md)
+- [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
 - 이상(Anomaly)
 - 정규화
-- 인덱스(INDEX)
-- 트랜잭션(Transaction)
-- 트랜잭션 격리 수준(Transaction Isolation Level)
-- 레디스(Redis)
+- [인덱스(INDEX)](database/Index.md)
+- [트랜잭션(Transaction)](database/Transaction.md)
+- [트랜잭션 격리 수준(Transaction Isolation Level)](database/트랜잭션_격리_수준.md)
+- [낙관적 락 (Optimistic Lock) VS 비관적 락 (Pessimistic Lock)](database/Optimistic_Lock_VS_Pessimistic_Lock.md)
+- [레디스(Redis)](database/Redis.md)
 
 ## 📌 언어
 
