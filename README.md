@@ -102,8 +102,8 @@
 - 키(Key) 정리
 - SQL - JOIN
 - [SQL_Injection](database/SQL_Injection.md)
+- [이상(Anomaly)](database/이상(Anomaly).md)
 - [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
-- 이상(Anomaly)
 - 정규화
 - [인덱스(INDEX)](database/Index.md)
 - [트랜잭션(Transaction)](database/Transaction.md)
