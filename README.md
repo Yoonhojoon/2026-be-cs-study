@@ -66,15 +66,17 @@
 - [OSI 7 계층](network/OSI_7_계층.md)
 - [TCP 3 way handshake & 4 way handshake](network/TCP_3_way_handshake_%26_4_way_handshake.md)
 - TCP/IP 흐름제어 & 혼잡제어
+    - [TCP/IP 흐름 제어](network/TCP_흐름_제어.md)
+    - [TCP/IP 혼잡 제어](network/TCP_혼잡_제어.md)
 - [TCP vs UDP](network/TCPvsUDP.md)
   - [TCP Header & UDP Header](network/TCP_Header_%26_UDP_Header.md)
 - 대칭키 & 공개키
 - [HTTP_&_HTTPS](network/HTTP_%26_HTTPS.md)
 - [로드 밸런싱(Load Balancing)](network/로드_밸런싱(Load_Balancing).md)
-  - [로드 밸런싱의 이점](network/로드_밸런싱의_이점.md)
-  - [로드 밸런싱의 유형](network/로드_밸런싱의_유형.md)
-  - [L4 로드 밸런싱](network/L4_로드_밸런싱.md)
-  - [L7 로드 밸런싱](network/L7_로드_밸런싱.md)
+    - [로드 밸런싱의 이점](network/로드_밸런싱의_이점.md)
+    - [로드 밸런싱의 유형](network/로드_밸런싱의_유형.md)
+    - [L4 로드 밸런싱](network/L4_로드_밸런싱.md)
+    - [L7 로드 밸런싱](network/L7_로드_밸런싱.md)
 - [Blocking & Non-Blocking I/O](network/Blocking_&_Non-Blocking_IO.md)
 
 ## 📌 운영체제
@@ -100,14 +102,14 @@
 - 키(Key) 정리
 - SQL - JOIN
 - [SQL_Injection](database/SQL_Injection.md)
-- SQL vs NoSQL
 - [이상(Anomaly)](database/이상(Anomaly).md)
+- [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
 - 정규화
 - [인덱스(INDEX)](database/Index.md)
 - [트랜잭션(Transaction)](database/Transaction.md)
-- 트랜잭션 격리 수준(Transaction Isolation Level)
+- [트랜잭션 격리 수준(Transaction Isolation Level)](database/트랜잭션_격리_수준.md)
 - [낙관적 락 (Optimistic Lock) VS 비관적 락 (Pessimistic Lock)](database/Optimistic_Lock_VS_Pessimistic_Lock.md)
-- 레디스(Redis)
+- [레디스(Redis)](database/Redis.md)
 
 ## 📌 언어
 
