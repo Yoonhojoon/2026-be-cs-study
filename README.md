@@ -159,7 +159,7 @@
 - 쿠키(Cookie) & 세션(Session)
 - 웹 서버와 WAS의 차이점
 - OAuth
-- JWT(JSON Web Token)
+- [JWT](web/JWT.md)
 - Authentication & Authorization
 - 로그 레벨
 - UI와 UX
