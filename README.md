@@ -142,7 +142,7 @@
 ## 📌 웹
 
 - HTTP Method
-- RESTFul API 란?
+- [RESTFul API 란?](web/RESTful_API.md)
 - 브라우저의 작동 원리
 - DOM(Document Object Model)
     - Event Bubbling and Capturing
