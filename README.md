@@ -100,7 +100,7 @@
 ## 📌 데이터베이스
 
 - 키(Key) 정리
-- SQL - JOIN
+- [SQL - JOIN](database/SQL_JOIN.md)
 - [SQL_Injection](database/SQL_Injection.md)
 - [이상(Anomaly)](database/이상(Anomaly).md)
 - [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
