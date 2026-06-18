@@ -41,10 +41,10 @@
 
 ## 벌칙
 
-| 분류 | 설명 | 벌점 |
-| --- | --- | --- |
+| 분류 | 설명           | 벌점 |
+|----|--------------|----|
 | 지각 | 발표 2시간 이내 제출 | 1점 |
-| 결석 | 미제출 | 2점 |
+| 결석 | 미제출          | 2점 |
 
 - 벌점 4점이 되면 두바이 아이스박스 사기
 
@@ -69,7 +69,7 @@
     - [TCP/IP 흐름 제어](network/TCP_흐름_제어.md)
     - [TCP/IP 혼잡 제어](network/TCP_혼잡_제어.md)
 - [TCP vs UDP](network/TCPvsUDP.md)
-  - [TCP Header & UDP Header](network/TCP_Header_%26_UDP_Header.md)
+    - [TCP Header & UDP Header](network/TCP_Header_%26_UDP_Header.md)
 - 대칭키 & 공개키
 - [HTTP_&_HTTPS](network/HTTP_%26_HTTPS.md)
 - [로드 밸런싱(Load Balancing)](network/로드_밸런싱(Load_Balancing).md)
@@ -99,7 +99,7 @@
 
 ## 📌 데이터베이스
 
-- 키(Key) 정리
+- [키(Key) 정리](database/키(Key)_정리.md)
 - SQL - JOIN
 - [SQL_Injection](database/SQL_Injection.md)
 - [이상(Anomaly)](database/이상(Anomaly).md)
