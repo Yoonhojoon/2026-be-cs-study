@@ -100,7 +100,7 @@
 ## 📌 데이터베이스
 
 - [키(Key) 정리](database/키(Key)_정리.md)
-- SQL - JOIN
+- [SQL - JOIN](database/SQL_JOIN.md)
 - [SQL_Injection](database/SQL_Injection.md)
 - [이상(Anomaly)](database/이상(Anomaly).md)
 - [SQL vs NoSQL](database/SQL_vs_NoSQL.md)
@@ -142,7 +142,7 @@
 ## 📌 웹
 
 - HTTP Method
-- RESTFul API 란?
+- [RESTFul API 란?](web/RESTful_API.md)
 - 브라우저의 작동 원리
 - DOM(Document Object Model)
     - Event Bubbling and Capturing
@@ -159,7 +159,7 @@
 - 쿠키(Cookie) & 세션(Session)
 - 웹 서버와 WAS의 차이점
 - OAuth
-- JWT(JSON Web Token)
+- [JWT](web/JWT.md)
 - Authentication & Authorization
 - 로그 레벨
 - UI와 UX
